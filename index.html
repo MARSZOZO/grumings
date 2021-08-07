@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <!-- Обязательные метатеги -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/all.css">
+
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/filter.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/bestservices.css">
+
+
+    <title>gdfgdfgdfgfdg мир!</title>
+</head>
+
+<body>
+    <div class="container content-page">
+        <div class="container-fluid">
+            <!-- <nav class="header-top-box fixed-top">
+                <div class="header-top">
+                    <div class="nav-links">
+                      <ul class="links">
+                        <li>
+                            <a href="#">
+                                <img src="./img/logo.svg" alt="logo">
+                            </a>
+                        </li>
+                        <li>
+                            <button class="btn btn-primary">Личный кабинет</button>
+                            <button class="btn btn-primary">Присоединиться бесплатно</button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+            </nav> -->
+            <nav class="shadow">
+                <div class="navigation-bar">
+                    <i class='bx bx-menu'></i>
+                    <div class="nav-links nav-wrapper">
+                        <div class="sidebar-logo">
+                            <i class='bx bx-x'></i>
+                        </div>
+                        <ul class="links nav-ul">
+                            <li class="active"><a href="#">Груминг</a></li>
+                            <li>
+                                <a href="#">Врачи</a>
+                                <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                                <ul class="htmlCss-sub-menu sub-menu">
+                                    <li><a href="#">Web Design</a></li>
+                                    <li><a href="#">Login Forms</a></li>
+                                    <li><a href="#">Card Design</a></li>
+                                    <li class="more">
+                                        <span><a href="#">More</a>
+                                            <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                                        </span>
+                                        <ul class="more-sub-menu sub-menu">
+                                            <li><a href="#">Neumorphism</a></li>
+                                            <li><a href="#">Pre-loader</a></li>
+                                            <li><a href="#">Glassmorphism</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Дрессировка</a>
+                                <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                                <ul class="js-sub-menu sub-menu">
+                                    <li><a href="#">Dynamic Clock</a></li>
+                                    <li><a href="#">Form Validation</a></li>
+                                    <li><a href="#">Card Slider</a></li>
+                                    <li><a href="#">Complete Website</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Ветеринарные услуги</a></li>
+                            <li><a href="#">Ветеринарные клиники</a></li>
+                            <li><a href="#">Передержка</a></li>
+                            <li><a href="#">Кладбище</a></li>
+                            <li><a href="#">Поиск животных</a></li>
+                            <li><a href="#">Питание</a></li>
+                            <li><a href="#">Продажа</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="row justify-content-between content filter-box">
+                    <div class="col-sm-12 col-md-6 ps-0">
+                        <div class="row mb-4">
+                            <div class="col">
+                                <h5 class="blue_color">Выберите вашего питомца</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 filter-box__animal">
+                                <div class="filter-box__animal-bg">
+                                    <img class="filter-box__animal-img" src="./img/filter-cat.png" alt="cat">
+                                </div>
+                                <div class="filter-box__animal-title mt-2">
+                                    <p>Кошка</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 filter-box__animal">
+                                <div class="filter-box__animal-bg">
+                                    <img class="filter-box__animal-img" src="./img/filter-dog.png" alt="cat">
+                                </div>
+                                <div class="filter-box__animal-title mt-2">
+                                    <p>Собака</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 filter-box__animal">
+                                <div class="filter-box__animal-bg">
+                                    <img class="filter-box__animal-img" src="./img/filter-rodent.png" alt="cat">
+                                </div>
+                                <div class="filter-box__animal-title mt-2">
+                                    <p>Грызун</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 filter-box__animal">
+                                <div class="filter-box__animal-bg">
+                                    <i class='bx bx-plus'></i>
+                                </div>
+                                <div class="filter-box__animal-title mt-2">
+                                    <p>Другой питомец</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 pe-0 mt-sm-4 mt-md-0">
+                        <div class="row mb-3">
+                            <div class="col">
+                                <h5 class="blue_color">Выберите породу и другие черты питомца</h5>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col">
+                                <label>Порода собаки</label>
+                                <select class="form-select" aria-label="Default select example">
+
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label>Размер животного</label>
+                                <select class="form-select" aria-label="Default select example"></select>
+                            </div>
+                            <div class="col">
+                                <label>Уровень активности</label>
+                                <select class="form-select" aria-label="Default select example"></select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label>Вес</label>
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col-md-2">
+                                <label>Возраст</label>
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>Специальные показания</label>
+                                <select class="form-select" aria-label="Default select example"></select>
+                            </div>
+                            <div class="col">
+                                <label>Местоположение</label>
+                                <select class="form-select" aria-label="Default select example"></select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between p-0 m-0" style="margin-top: auto !important;">
+                        <div class="col text-start mt-4 ps-0">
+                            <button class="btn btn-transparent filter-show-all-button" onclick="changeHeight()">Показать
+                                больше фильтров <i class='bx bx-chevron-down filter-arrow'></i></button>
+                            <button class="btn btn-transparent filter-clear-button d-none">Сбросить</button>
+                        </div>
+                        <div class="col text-end mt-4 pe-0">
+                            <button class="btn btn-primary px-4">Показать 155 предложений</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mt-5">
+            <div class="col">
+                <h1>Популярные предложения</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="nav-category">
+                    <ul class="nav-category__items">
+                        <li>
+                            <a href="#" class="active">5 лучших салонов Москвы</a>
+                        </li>
+                        <li>
+                            <a href="#">Избранное</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col best-services content">
+                <div class="best-service">
+                    <div>
+                        <div>
+                            <img src="./img/img-best-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="best-service__info">
+                        <div>
+                            <ul>
+                                <li class="best-service__info__name">Наше собачье дело</li>
+                                <li class="best-service__info__description">
+                                    Приглашаем Всех в наш груминг зоосалон "Наше собачье дело" ! Вас ждут самые
+                                    высококвалифицированные специалисты которые делают ваших питомцев о... <a
+                                        href="">Читать ещё</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="best-service__services">
+                        <div>
+                            <ul class="best-service__service">
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>
+                                    <a href="">Посмотреть все услуги</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="best-service__photos">
+                        <div>
+                            <img src="./img/img-best-d-1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./img/img-best-d-2.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./img/img-best-d-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="best-service__actions">
+                        <div>
+                            <button class="btn btn-primary">Записаться</button>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-secondary">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-service">
+                    <div>
+                        <div>
+                            <img src="./img/img-best-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="best-service__info">
+                        <div>
+                            <ul>
+                                <li class="best-service__info__name">Наше собачье дело</li>
+                                <li class="best-service__info__description">
+                                    Приглашаем Всех в наш груминг зоосалон "Наше собачье дело" ! Вас ждут самые
+                                    высококвалифицированные специалисты которые делают ваших питомцев о... <a
+                                        href="">Читать ещё</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="best-service__services">
+                        <div>
+                            <ul class="best-service__service">
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>
+                                    <a href="">Посмотреть все услуги</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="best-service__photos">
+                        <div>
+                            <img src="./img/img-best-d-1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./img/img-best-d-2.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./img/img-best-d-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="best-service__actions">
+                        <div>
+                            <button class="btn btn-primary">Записаться</button>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-secondary">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-service">
+                    <div>
+                        <div>
+                            <img src="./img/img-best-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="best-service__info">
+                        <div>
+                            <ul>
+                                <li class="best-service__info__name">Наше собачье дело</li>
+                                <li class="best-service__info__description">
+                                    Приглашаем Всех в наш груминг зоосалон "Наше собачье дело" ! Вас ждут самые
+                                    высококвалифицированные специалисты которые делают ваших питомцев о... <a
+                                        href="">Читать ещё</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="best-service__services">
+                        <div>
+                            <ul class="best-service__service">
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>
+                                    <a href="">Посмотреть все услуги</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="best-service__photos">
+                        <div>
+                            <img src="./img/img-best-d-1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./img/img-best-d-2.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./img/img-best-d-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="best-service__actions">
+                        <div>
+                            <button class="btn btn-primary">Записаться</button>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-secondary">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-service">
+                    <div>
+                        <div>
+                            <img src="./img/img-best-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="best-service__info">
+                        <div>
+                            <ul>
+                                <li class="best-service__info__name">Наше собачье дело</li>
+                                <li class="best-service__info__description">
+                                    Приглашаем Всех в наш груминг зоосалон "Наше собачье дело" ! Вас ждут самые
+                                    высококвалифицированные специалисты которые делают ваших питомцев о... <a
+                                        href="">Читать ещё</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="best-service__services">
+                        <div>
+                            <ul class="best-service__service">
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>
+                                    <a href="">Посмотреть все услуги</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="best-service__photos">
+                        <div>
+                            <img src="./img/img-best-d-1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./img/img-best-d-2.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./img/img-best-d-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="best-service__actions">
+                        <div>
+                            <button class="btn btn-primary">Записаться</button>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-secondary">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-service">
+                    <div>
+                        <div>
+                            <img src="./img/img-best-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="best-service__info">
+                        <div>
+                            <ul>
+                                <li class="best-service__info__name">Наше собачье дело</li>
+                                <li class="best-service__info__description">
+                                    Приглашаем Всех в наш груминг зоосалон "Наше собачье дело" ! Вас ждут самые
+                                    высококвалифицированные специалисты которые делают ваших питомцев о... <a
+                                        href="">Читать ещё</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="best-service__services">
+                        <div>
+                            <ul class="best-service__service">
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>Стрижка кошек <span>1300 ₽</span></li>
+                                <li>
+                                    <a href="">Посмотреть все услуги</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="best-service__photos">
+                        <div>
+                            <img src="./img/img-best-d-1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./img/img-best-d-2.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./img/img-best-d-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="best-service__actions">
+                        <div>
+                            <button class="btn btn-primary">Записаться</button>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-secondary">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row mt-5">
+            <div class="col">
+                <h1>Статьи и новости</h1>
+            </div>
+        </div>
+        <!-- Блок выбора категорий статей и новостей -->
+        <div class="row">
+            <div class="col">
+                <div class="nav-category">
+                    <ul class="nav-category__items">
+                        <li>
+                            <a href="#" class="active">Уход за питомцем</a>
+                        </li>
+                        <li>
+                            <a href="#">Питание</a>
+                        </li>
+                        <li>
+                            <a href="#">Дрессировка</a>
+                        </li>
+                        <li>
+                            <a href="#">Лечение</a>
+                        </li>
+                        <li>
+                            <a href="#">Воспитание</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок статей и новостей -->
+        <div class="row">
+            <div class="col-sm-4 col-md-3">
+                <div class="content">
+                    <img src="./img/news-one.png" class="card-img-top" alt="...">
+                    <div class="card-body p-25">
+                        <div class="card-title">
+                            <p>7 главных ошибок в уходе за собакой</p>
+                        </div>
+                        <div class="card-text mb-3">
+                            <p>Проверьте, знаете ли вы, как правильно ухаживать за домашней собакой, и не совершаете
+                                ли этих распространенных ошибок.</p>
+                        </div>
+                        <div class="card-author">
+                            <div class="me-2">
+                                <img src="./img/news-1.png" alt="...">
+                            </div>
+                            <div>
+                                <p class="card-author-name">Мон Ами</p>
+                                <p class="card-author-type">Груминг салон</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3">
+                <div class="content">
+                    <img src="./img/news-two.png" class="card-img-top" alt="...">
+                    <div class="card-body p-25">
+                        <div class="card-title">
+                            <p>Грумер: что это за специалист?</p>
+                        </div>
+                        <div class="card-text mb-3">
+                            <p>Не знаете что это за современная профессия? Рассказываем, чем занимается
+                                профессиональный грумер.</p>
+                        </div>
+                        <div class="card-author">
+                            <div class="me-2">
+                                <img src="./img/news-2.png" alt="...">
+                            </div>
+                            <div>
+                                <p class="card-author-name">Гаврики</p>
+                                <p class="card-author-type">Груминг салон</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3">
+                <div class="content">
+                    <img src="./img/news-three.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <p>Как подстричь когти собаке?</p>
+                        </div>
+                        <div class="card-text mb-3">
+                            <p>В этой статье мы постараемся помочь вам разобраться в том, как правильно подстричь
+                                когти собаке без нервов и боли.</p>
+                        </div>
+                        <div class="card-author">
+                            <div class="me-2">
+                                <img src="./img/news-3.png" alt="...">
+                            </div>
+                            <div>
+                                <p class="card-author-name">Зоосалон FreshDog</p>
+                                <p class="card-author-type">Груминг салон</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3">
+                <div class="content">
+                    <img src="./img/news-four.png" class="card-img-top" alt="...">
+                    <div class="card-body p-25">
+                        <div class="card-title">
+                            <p>Кормление кошек: нормы и необходимые продукты</p>
+                        </div>
+                        <div class="card-text mb-3">
+                            <p>Не знаете, чем и как кормить домашнего кота? В этой статье мы раскроем все секреты
+                                правильного питания кошек.</p>
+                        </div>
+                        <div class="card-author">
+                            <div class="me-2">
+                                <img src="./img/news-4.png" alt="...">
+                            </div>
+                            <div>
+                                <p class="card-author-name">Зоотюнинг</p>
+                                <p class="card-author-type">Груминг салон</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <script src="./js/bootstrap.bundle.min.js"></script>
+
+        <script src="./js/main.js"></script>
+</body>
+
+</html>
