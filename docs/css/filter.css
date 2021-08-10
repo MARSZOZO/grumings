@@ -54,22 +54,37 @@ label {
 }
 
 .filter-box__animal-bg {
-  background: #dadada;
+  background: #f4f7fb;
   height: 100px;
   display: flex;
   border-radius: 100%;
   justify-content: center;
+  box-shadow: inset 0px 0px 1px rgba(13, 35, 67, 0.35), inset 0px -14px 17px -8px rgba(13, 35, 67, 0.15);
+}
+
+.animal-search {
+  box-shadow: 0px 0px 1px rgba(13, 35, 67, 0.35), 0px 8px 17px -8px rgba(13, 35, 67, 0.15);
+  background: white;
 }
 
 .filter-box__animal-bg > i {
-  margin-top: 21%;
-  color: #54719d;
+  margin-top: 22%;
+  color: #fb8a2e;
   font-size: 60px;
+  margin-left: 5%;
+  transition: all 0.3s ease;
+  transform: scale(1);
 }
 
 .filter-box__animal-bg > img {
   transform: scale(0.8);
   transition: all 0.3s ease;
+}
+
+.filter-box__animal-bg > i:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  color: #ff821d;
 }
 
 .filter-box__animal-bg > img:hover {
@@ -90,4 +105,3 @@ label {
 .show-all {
   height: 625px;
 }
-

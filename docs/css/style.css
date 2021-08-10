@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: #F4F7FB;
+}
+
+.bg-dark {
+    background: #EEF2F8 !important;
+}
+
 p {
     margin: 0;
 }
@@ -240,6 +249,16 @@ h5 {
 }
 
 
+.heading_text_info p {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.heading_text_info p:last-child {
+    margin-bottom: 17px;
+}
+
 /* Навигационное меню */
 /* .navigation-bar-sidemenu {
     flex-grow: 1;
@@ -288,6 +307,7 @@ h5 {
 .content {
     box-shadow: 0px 0px 1px rgba(13, 35, 67, 0.35), 0px 8px 17px -8px rgba(13, 35, 67, 0.15);
     border-radius: 30px !important;
+    background: white;
 }
 
 /* ПУНКТЫ ВЫБОРА НОВОСТЕЙ И СТАТЕЙ */

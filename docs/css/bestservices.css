@@ -1,37 +1,15 @@
-.best-service:before {
-    content: "";
-    position: absolute;
-    bottom: -25px;
-    left: -25px;
-    height: 1px;
-    width: 104%;
-    background: #CFCECE;
-}
-
 .best-service__logo div img {
     border-radius: 100%;
     border: 0.1px solid #f1f1f1;
     width: 100px;
 }
 
-.best-service:last-child::before {
-    /* content: "";
-    position: absolute;
-    bottom: -25px;
-    left: -25px;
-    height: 1px;
-    width: 104%; */
-    background: #cfcece00;
-}
-
-
 .best-service {
     display: flex;
     flex-wrap: wrap;
-    position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding: 25px;
-    
+
 }
 
 .best-service:last-child {
@@ -46,13 +24,14 @@
 .best-service__info__name {
     font-weight: 700;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 14px;
     color: #4F719D;
+    margin-bottom: 10px;
 }
 
 .best-service__info__description {
     font-size: 14px;
-    line-height: 17px;
+    line-height: 20px;
     color: #333333;
 }
 
@@ -69,6 +48,7 @@
     font-size: 14px;
     color: #333333;
     font-weight: 600;
+    line-height: 10px;
 }
 
 .best-service__service li span {
@@ -77,8 +57,13 @@
     font-weight: 700;
 }
 
+.best-service__service li {
+    margin-bottom: 20px;
+}
+
 .best-service__service li:last-child {
     margin-top: 3%;
+    margin-bottom: 0;
 }
 .best-service__service li a {
     color: #4F719D;
