@@ -492,13 +492,21 @@ nav.header-top-box {
     z-index: 100;
 }
 
-
  
 .footer-box {
+    margin-top: 150px;
+    position: relative;
     height: 300px;
     background-color: #4F719D;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+}
+.footer-box::after {
+    position: absolute;
+    content: url(../img/footer-image.png);
+    transform: scale(0.18);
+    bottom: -116px;
+    right: 46%;
 }
 
 /* НАВИГАЦИОННОЕ ВЕРХНЕЕ МЕНЮ */
