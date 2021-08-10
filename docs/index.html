@@ -27,10 +27,10 @@
 
 <body>
     <div class="container content-page">
-        <!-- <nav class="header-top-box fixed-top">
-                <div class="header-top">
-                    <div class="nav-links">
-                      <ul class="links">
+        <nav class="header-top-box fixed-top">
+            <div class="header-top">
+                <div class="nav-links">
+                    <ul class="links">
                         <li>
                             <a href="#">
                                 <img src="./img/logo.svg" alt="logo">
@@ -38,13 +38,13 @@
                         </li>
                         <li>
                             <button class="btn btn-primary">Личный кабинет</button>
-                            <button class="btn btn-primary">Присоединиться бесплатно</button>
+                            <button class="btn btn-primary ms-4">Присоединиться бесплатно</button>
                         </li>
-                      </ul>
-                    </div>
-                  </div>
-            </nav> -->
-        <nav class="shadow">
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="shadow navigation-box">
             <div class="navigation-bar">
                 <i class='bx bx-menu'></i>
                 <div class="nav-links nav-wrapper">
@@ -180,7 +180,8 @@
                     </div>
                     <div class="row justify-content-between p-0 m-0" style="margin-top: auto !important;">
                         <div class="col text-start mt-4 ps-0">
-                            <button class="btn btn-transparent filter-show-all-button fw-normal" onclick="changeHeight()">Показать
+                            <button class="btn btn-transparent filter-show-all-button fw-normal"
+                                onclick="changeHeight()">Показать
                                 больше фильтров <i class='bx bx-chevron-down filter-arrow'></i></button>
                             <button class="btn btn-transparent filter-clear-button d-none">Сбросить</button>
                         </div>
@@ -210,11 +211,22 @@
 
     </div>
 
-    <div class="container-fluid bg-dark">
-        <div class="container">
-            <div class="row heading-text mt-5 mb-4">
+    <div class="container-fluid bg-white mt-100 mb-35">
+        <div class="container header-box">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav aria-label="breadcrumb" class="breadcrumb-box">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Главная</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Груминг</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <div class="row heading-text">
                 <div class="col-md-12 heading-text_title">
-                    <h1>Запись на приём в лучшие салоны Москвы</h1>
+                    <h1>Запись на приём в лучшие салоны Москвы <span class="text-light-secondary">· 155 салонов</span>
+                    </h1>
                 </div>
                 <div class="col-md-12 heading_text_info">
                     <p><b>Хороший салон</b> - это специалисты широкого профиля, который основываясь на ваших желаниях и
@@ -502,9 +514,9 @@
 
 
 
-    <div class="container-fluid">
+    <div class="container-fluid mt-100">
         <div class="container">
-            <div class="row heading-text mt-5 mb-4">
+            <div class="row heading-text">
                 <div class="col-md-12 heading-text_title">
                     <h1>Новые публикации в блоге</h1>
                 </div>
@@ -629,6 +641,16 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer-box mt-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
                 </div>
             </div>
         </div>

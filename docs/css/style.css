@@ -4,6 +4,39 @@
     box-sizing: border-box;
 }
 
+.breadcrumb-box {
+    position: relative !important;
+    background: none !important;
+    height: 25px !important;
+}
+
+.breadcrumb-item {
+    font-size: 14px;
+}
+
+.fw-bold {
+    font-weight: bold !important;
+}
+
+.breadcrumb-item > a {
+    color: #fb8a2e;
+}
+
+.text-light-secondary {
+    color: #b9b9b9;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.header-box {
+    padding: 25px 0px 13px 0px;
+}
+
 body {
     background: #F4F7FB;
 }
@@ -16,7 +49,7 @@ p {
     margin: 0;
 }
 .content-page {
-    padding-top: 77px;
+    padding-top: 122px;
 }
 a {
     text-decoration: none;
@@ -65,9 +98,9 @@ h6 {
 }
 h1 {
     font-weight: 600;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 2;
-    color: #7a99c5;
+    color: #4F719D;
 }
 h5 {
     font-size: 18px;
@@ -252,11 +285,7 @@ h5 {
 .heading_text_info p {
     font-size: 14px;
     color: #333333;
-    margin-bottom: 15px;
-}
-
-.heading_text_info p:last-child {
-    margin-bottom: 17px;
+    margin-bottom: 10px;
 }
 
 /* Навигационное меню */
@@ -276,16 +305,16 @@ h5 {
 }
 .card-title {
     margin-bottom: 0.2rem;
-    height: 40px !important;
+    height: 50px !important;
 }
 .card-title > p {
     color: #152943;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
 }
 .card-text > p {
     color: #7e7e7e;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;
 }
 .card-author {
@@ -459,13 +488,23 @@ nav .header-top .links li {
 }
 nav.header-top-box {
     height: 49px;
+    background: white;
+    z-index: 100;
+}
+
+
+ 
+.footer-box {
+    height: 300px;
+    background-color: #4F719D;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 /* НАВИГАЦИОННОЕ ВЕРХНЕЕ МЕНЮ */
-nav {
+.navigation-box {
     position: fixed;
-    top: 0;
-    /* top: 49px; */
+    top: 49px;
     left: 0;
     width: 100%;
     height: 100%;
