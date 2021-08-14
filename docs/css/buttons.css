@@ -59,3 +59,8 @@
     color: #E4508F;
     transition: all 0.3s ease;
 }
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: .25rem .5rem !important;
+    font-size: .875rem !important;
+}

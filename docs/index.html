@@ -10,6 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
     <link rel="stylesheet" href="./css/all.css">
 
     <!-- Boxiocns CDN Link -->
@@ -20,6 +22,7 @@
     <link rel="stylesheet" href="./css/buttons.css">
     <link rel="stylesheet" href="./css/bestservices.css">
     <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/footer.css">
 
 
     <title>Grumings</title>
@@ -36,7 +39,7 @@
                                 <img src="./img/logo.svg" alt="logo">
                             </a>
                         </li>
-                        <li>
+                        <li class="link__items">
                             <button class="btn btn-primary">Личный кабинет</button>
                             <button class="btn btn-primary ms-4">Присоединиться бесплатно</button>
                         </li>
@@ -162,11 +165,11 @@
                         <div class="row">
                             <div class="col-md-2">
                                 <label>Вес</label>
-                                <input type="number" class="form-control">
+                                <input type="number" class="form-control filter-box__input">
                             </div>
                             <div class="col-md-2">
                                 <label>Возраст</label>
-                                <input type="number" class="form-control">
+                                <input type="number" class="form-control filter-box__input">
                             </div>
                             <div class="col">
                                 <label>Специальные показания</label>
@@ -648,9 +651,120 @@
 
     <div class="container-fluid footer-box">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-
+            <div class="row g-0 footer__content">
+                <div class="col-md-3">
+                    <div class="footer__column">
+                        <div class="footer__title">
+                            Сервис
+                        </div>
+                        <ul class="footer-list">
+                            <li class="footer-list__item"><a href="/about">О нас</a></li>
+                            <li class="footer-list__item"><a href="/about/team">Команда</a></li>
+                            <li class="footer-list__item"><a href="/about/contacts">Контакты</a></li>
+                            <li class="footer-list__item"><a href="/about/faq">FAQ</a></li>
+                            <li class="footer-list__item"><a href="/reviews">Отзывы о Grumings</a></li>
+                            <li class="footer-list__item"><a href="/sitemap">Карта сайта</a></li>
+                            <li class="footer-list__item"><a href="/offer">Пользовательское соглашение</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer__column">
+                        <div class="footer__title">
+                            Пользователю
+                        </div>
+                        <ul class="footer-list mb-0">
+                            <li class="footer-list__item"><a href="/doctor">Груминг</a></li>
+                            <li class="footer-list__item"><a href="/clinic">Врачи</a></li>
+                            <li class="footer-list__item"><a href="https://diagnostica.docdoc.ru">Дрессировка</a></li>
+                            <li class="footer-list__item"><a href="/service">Ветеринарные услуги</a></li>
+                            <li class="footer-list__item"><a href="/library">Ветеринарные клиники</a></li>
+                            <li class="footer-list__item"><a href="https://illness.docdoc.ru">Передержка животных</a>
+                            </li>
+                            <li class="footer-list__item"><a href="/sitemap/fio">Кладбище животных</a></li>
+                            <li class="footer-list__item"><a href="/sitemap/clinic-names">Поиск животных</a></li>
+                            <li class="footer-list__item"><a href="/confidentiality">Питание для животных</a></li>
+                            <li class="footer-list__item"><a href="/agreement">Продажа животных</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer__column">
+                        <div class="footer__title">
+                            Салону
+                        </div>
+                        <ul class="footer-list">
+                            <li class="footer-list__item"><a href="https://docdoc.ru/lk" rel="nofollow">Личный
+                                    кабинет</a></li>
+                            <li class="footer-list__item"><a href="https://docdoc.ru/register"
+                                    rel="nofollow">Регистрация</a></li>
+                        </ul>
+                        <div class="footer__title">
+                            Партнерам
+                        </div>
+                        <ul class="footer-list">
+                            <li class="footer-list__item"><a href="https://pk.docdoc.ru" rel="nofollow">Личный
+                                    кабинет</a></li>
+                            <li class="footer-list__item"><a href="https://pk.docdoc.ru/affiliate"
+                                    rel="nofollow">Партнёрская программа</a></li>
+                            <li class="footer-list__item"><a href="https://sberhealth.ru/sales"
+                                    rel="nofollow">Юридическим лицам</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer__column">
+                        <div class="the-footer__logo-block">
+                            <div class="footer__logo">
+                                <img src="./img/logo.svg" alt="logo">
+                            </div>
+                            <div class="footer__email">
+                                Пишите нам на
+                                <a href="mailto:info@sberhealth.ru" class="text-orange">info@grumings.ru</a>
+                            </div>
+                            <div class="footer__phone">
+                                Звоните на
+                                <a href="tel:88005553535" class="text-orange">
+                                    8 (800) 555-35-35 </a>
+                            </div>
+                        </div>
+                        <div class="footer__copyright">
+                            © grumings.ru 2021
+                        </div>
+                        <noindex>
+                            <div class="footer__socials">
+                                <a href="https://vk.com/sber.health" title="Sberhealth вКонтакте" target="_blank" rel="nofollow" class="footer__socials-link vk">
+                                    <i class='bx bxl-vk' ></i>
+                                </a>
+                                <a href="https://www.facebook.com/sberhealth/" title="Sberhealth Facebook" target="_blank" rel="nofollow" class="footer__socials-link fb">
+                                    <i class='bx bxl-facebook' ></i>
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCzmp8WzYmly2Dskaf5HuIXg" title="Sberhealth YouTube" target="_blank" rel="nofollow" class="footer__socials-link yt">
+                                    <i class='bx bxl-youtube' ></i>
+                                </a>
+                            </div>
+                        </noindex>
+                        <div class="footer__distribution-block">
+                            <div class="footer__title">
+                                Будь в курсе
+                            </div>
+                            <ul class="footer-list mb-3">
+                                <li class="footer-list__item">
+                                    Подпишитесь на рассылку и будьте в курсе свежих спецпредложений <span class="text-orange">grumings</span>
+                                </li>
+                            </ul>
+                            <div class="footer-form">
+                                <div class="row g-2">
+                                    <div class="col">
+                                        <input type="email" class="form-control form-control-sm footer-form__input" placeholder="Укажите свой email адрес">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button class="btn btn-sm btn-primary footer-form__button">Подписаться</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -680,11 +794,11 @@
 
 
 
+    <script src="./js/bootstrap.bundle.min.js"></script>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
 
 
     <script src="./js/main.js"></script>

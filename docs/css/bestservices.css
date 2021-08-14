@@ -98,8 +98,9 @@
 /*  Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
     .best-service__info {
-        width: 71%;
+        width: 68%;
         margin-bottom: 25px;
+        margin-left: 20px;
     }
     .best-service__services {
         width: 100%;
@@ -113,5 +114,11 @@
     .best-service__actions {
         width: 100%;
         flex-direction: row-reverse;
+    }
+    nav .header-top .links {
+        justify-content: center;
+    }
+    .link__items {
+        display: none !important;
     }
 }
