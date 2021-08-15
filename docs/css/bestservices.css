@@ -118,7 +118,4 @@
     nav .header-top .links {
         justify-content: center;
     }
-    .link__items {
-        display: none !important;
-    }
 }

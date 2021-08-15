@@ -12,7 +12,10 @@
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
 
     <!-- Boxiocns CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
@@ -23,14 +26,79 @@
     <link rel="stylesheet" href="./css/bestservices.css">
     <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/navigationBar.css">
 
 
     <title>Grumings</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow p-0">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.svg" alt="logo" height="41">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Груминг</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Врачи</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Дрессировка</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Питание</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link big-text" href="#">Ветеринарные услуги</a>
+                    </li>
+                    <!-- --------------- -->
+                    <!-- Временно убрано -->
+                    <!-- --------------- -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Ветеринарные клиники</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Передержка</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Еще
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-transparent fw-normal">
+                        <img src="./img/user.svg" alt="">
+                    </button>
+                </form>
+                <!-- <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
+
     <div class="container content-page">
-        <nav class="header-top-box fixed-top">
+        <!-- <nav class="header-top-box fixed-top">
             <div class="header-top">
                 <div class="nav-links">
                     <ul class="links">
@@ -39,15 +107,11 @@
                                 <img src="./img/logo.svg" alt="logo">
                             </a>
                         </li>
-                        <li class="link__items">
-                            <button class="btn btn-primary">Личный кабинет</button>
-                            <button class="btn btn-primary ms-4">Присоединиться бесплатно</button>
-                        </li>
                     </ul>
                 </div>
             </div>
-        </nav>
-        <nav class="shadow navigation-box">
+        </nav> -->
+        <!-- <nav class="shadow navigation-box">
             <div class="navigation-bar">
                 <i class='bx bx-menu'></i>
                 <div class="nav-links nav-wrapper">
@@ -60,17 +124,17 @@
                             <a href="#">Врачи</a>
                             <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
                             <ul class="htmlCss-sub-menu sub-menu">
-                                <li><a href="#">Web Design</a></li>
-                                <li><a href="#">Login Forms</a></li>
-                                <li><a href="#">Card Design</a></li>
+                                <li><a href="#">Пункт</a></li>
+                                <li><a href="#">Пункт</a></li>
+                                <li><a href="#">Пункт</a></li>
                                 <li class="more">
-                                    <span><a href="#">More</a>
+                                    <span><a href="#">Пункт</a>
                                         <i class='bx bxs-chevron-right arrow more-arrow'></i>
                                     </span>
                                     <ul class="more-sub-menu sub-menu">
-                                        <li><a href="#">Neumorphism</a></li>
-                                        <li><a href="#">Pre-loader</a></li>
-                                        <li><a href="#">Glassmorphism</a></li>
+                                        <li><a href="#">Пункт</a></li>
+                                        <li><a href="#">Пункт</a></li>
+                                        <li><a href="#">Пункт</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -79,23 +143,76 @@
                             <a href="#">Дрессировка</a>
                             <i class='bx bxs-chevron-down js-arrow arrow '></i>
                             <ul class="js-sub-menu sub-menu">
-                                <li><a href="#">Dynamic Clock</a></li>
-                                <li><a href="#">Form Validation</a></li>
-                                <li><a href="#">Card Slider</a></li>
-                                <li><a href="#">Complete Website</a></li>
+                                <li><a href="#">Пункт</a></li>
+                                <li><a href="#">Пункт</a></li>
+                                <li><a href="#">Пункт</a></li>
+                                <li><a href="#">Пункт</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Ветеринарные услуги</a></li>
                         <li><a href="#">Ветеринарные клиники</a></li>
                         <li><a href="#">Передержка</a></li>
-                        <li><a href="#">Кладбище</a></li>
-                        <li><a href="#">Поиск животных</a></li>
                         <li><a href="#">Питание</a></li>
                         <li><a href="#">Продажа</a></li>
+                        <li>
+                            <a href="#">Еще</a>
+                            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                            <ul class="js-sub-menu sub-menu">
+                                <li><a href="#">Кладбище</a></li>
+                                <li><a href="#">Поиск животных</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> -->
+
+        <!-- <div class="menu-container fixed-top">
+            <div class="container p-0 menu">
+                <ul>
+                    <li><a href="#">Груминг</a></li>
+                    <li><a href="#">Врачи</a></li>
+                    <li><a href="#">Дрессировка</a></li>
+                    <li><a href="#">Ветеринарные услуги</a></li>
+                    <li><a href="#">Ветеринарные клиники</a></li>
+                    <li><a href="#">Передержка</a></li>
+                    <li><a href="#">Питание</a></li>
+                    <li><a href="#">Продажа</a></li>
+                    <li><a href="#">Еще <i class="fas fa-chevron-down menu-caret"></i></a>
+                        <ul>
+                            <li><a href="#">Кладбище</a>
+                                <ul>
+                                    <li><a href="#">Второстепенный пункт</a></li>
+                                    <li><a href="#">Второстепенный пункт</a></li>
+                                    <li><a href="#">Второстепенный пункт</a></li>
+                                    <li><a href="#">Второстепенный пункт</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Поиск животных</a>
+                                <ul>
+                                    <li><a href="#">Второстепенный пункт</a></li>
+                                    <li><a href="#">Второстепенный пункт</a></li>
+                                    <li><a href="#">Второстепенный пункт</a></li>
+                                    <li><a href="#">Второстепенный пункт</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Главный пункт</a>
+                                <ul>
+                                    <li><a href="#">Второстепенный пункт</a></li>
+                                    <li><a href="#">Второстепенный пункт</a></li>
+                                    <li><a href="#">Второстепенный пункт</a></li>
+                                    <li><a href="#">Второстепенный пункт</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Главный пункт</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+
+
+
         <div class="row">
             <div class="col">
                 <div class="row justify-content-between content filter-box">
@@ -195,23 +312,6 @@
                 </div>
             </div>
         </div>
-
-
-        <!-- <div class="row">
-            <div class="col">
-                <div class="nav-category">
-                    <ul class="nav-category__items">
-                        <li>
-                            <a href="#" class="active">5 лучших салонов Москвы</a>
-                        </li>
-                        <li>
-                            <a href="#">Избранное</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div> -->
-
     </div>
 
     <div class="container-fluid bg-white mt-100 mb-35">
@@ -733,14 +833,18 @@
                         </div>
                         <noindex>
                             <div class="footer__socials">
-                                <a href="https://vk.com/sber.health" title="Sberhealth вКонтакте" target="_blank" rel="nofollow" class="footer__socials-link vk">
-                                    <i class='bx bxl-vk' ></i>
+                                <a href="https://vk.com/sber.health" title="Sberhealth вКонтакте" target="_blank"
+                                    rel="nofollow" class="footer__socials-link vk">
+                                    <i class='bx bxl-vk'></i>
                                 </a>
-                                <a href="https://www.facebook.com/sberhealth/" title="Sberhealth Facebook" target="_blank" rel="nofollow" class="footer__socials-link fb">
-                                    <i class='bx bxl-facebook' ></i>
+                                <a href="https://www.facebook.com/sberhealth/" title="Sberhealth Facebook"
+                                    target="_blank" rel="nofollow" class="footer__socials-link fb">
+                                    <i class='bx bxl-facebook'></i>
                                 </a>
-                                <a href="https://www.youtube.com/channel/UCzmp8WzYmly2Dskaf5HuIXg" title="Sberhealth YouTube" target="_blank" rel="nofollow" class="footer__socials-link yt">
-                                    <i class='bx bxl-youtube' ></i>
+                                <a href="https://www.youtube.com/channel/UCzmp8WzYmly2Dskaf5HuIXg"
+                                    title="Sberhealth YouTube" target="_blank" rel="nofollow"
+                                    class="footer__socials-link yt">
+                                    <i class='bx bxl-youtube'></i>
                                 </a>
                             </div>
                         </noindex>
@@ -750,13 +854,15 @@
                             </div>
                             <ul class="footer-list mb-3">
                                 <li class="footer-list__item">
-                                    Подпишитесь на рассылку и будьте в курсе свежих спецпредложений <span class="text-orange">grumings</span>
+                                    Подпишитесь на рассылку и будьте в курсе свежих спецпредложений <span
+                                        class="text-orange">grumings</span>
                                 </li>
                             </ul>
                             <div class="footer-form">
                                 <div class="row g-2">
                                     <div class="col">
-                                        <input type="email" class="form-control form-control-sm footer-form__input" placeholder="Укажите свой email адрес">
+                                        <input type="email" class="form-control form-control-sm footer-form__input"
+                                            placeholder="Укажите свой email адрес">
                                     </div>
                                     <div class="col-md-4">
                                         <button class="btn btn-sm btn-primary footer-form__button">Подписаться</button>
@@ -795,12 +901,6 @@
 
 
     <script src="./js/bootstrap.bundle.min.js"></script>
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script> -->
-
-
     <script src="./js/main.js"></script>
 </body>
 
